@@ -9,25 +9,12 @@
     <link rel="stylesheet" href="public/css/style.css">
 </head>
 <body>
-    <nav>
-        <div class="topnav">
-            <a href="#">WELCOME WEBSITE</a>
-            <a href="#">SIGN IN</a>
-            <a href="#">SIGN UP</a>
-        </div>
-    </nav>
+    <?php include "./view/header.php"?>
+    <?php include "./view/sidebar-left.php" ?>
     <div>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">About</a></li>
-            <img src="public/images/beaty.png" alt="">
-
-        </ul>
+        <img src="public/images/beaty.png" alt="">
     </div>
-    <?php include ="./view/footer.php"?>
-s
+    <?php include "./view/footer.php"?>
 
 
 

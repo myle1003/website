@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .all-browsers > h1, .browser {
     margin: 10px;
     padding: 5px;
@@ -62,7 +65,7 @@ ul {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
+    background-color: lightgray;
 }
 
 li a {
@@ -77,3 +80,28 @@ li a:hover {
     background-color: #555;
     color: white;
 }
+
+.container {
+    width: 20px;
+    height: 80%;
+    background-color: lightgray;
+    box-sizing: border-box;
+}
+.container-button{
+    width: 200px;
+    height: 40px;
+    background: green;
+    color: white;
+    position: absolute;
+    bottom: 35px
+}
+.epend {
+    width: 50px;
+    height: 40px;
+    background: green;
+    color: white;
+    position: absolute;
+    bottom: 35px
+}
+
+
